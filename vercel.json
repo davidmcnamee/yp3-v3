@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "pages/api/*.py",
+      "use": "@now/python"
+    }
+  ],
+  "routes": [{ "src": "/api/test", "dest": "/pages/api/test.py" }]
+}
