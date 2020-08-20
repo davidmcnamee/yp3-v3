@@ -6,7 +6,16 @@ console.log("ffmpeg path:", ffmpeg.path);
 export default (req, res) => {
   const video = youtubedl(
     "http://www.youtube.com/watch?v=90AiXO1pAiA",
-    ["-x", "--audio-format", "mp3", "--ffmpeg-location", ffmpeg.path],
+    [
+      "--no-cache-dir",
+      "--no-part",
+      "-x",
+      "--audio-format",
+      "mp3",
+      "--ffmpeg-location",
+      ffmpeg.path,
+    ],
+    // [ "-f", "mp3" ],
     {}
   );
 
