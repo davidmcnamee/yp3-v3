@@ -12,7 +12,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -113,6 +113,14 @@
 
 .logo {
   height: 1em;
+}
+
+.inputBox {
+  margin: 20px;
+}
+
+.downloadBtn {
+  /* margin: 20px; */
 }
 
 @media (max-width: 600px) {
