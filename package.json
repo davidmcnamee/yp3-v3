@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
     "antd": "^4.5.4",
-    "ffmpeg": "^0.0.4",
     "next": "9.5.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
